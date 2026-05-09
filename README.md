@@ -8,16 +8,21 @@ Dự án này bao gồm Frontend (React), Backend (Node.js) và kết nối vớ
 
 Nếu bạn vừa mới tải code về máy, hãy thực hiện các bước sau theo thứ tự:
 
-### 1. Cài đặt thư viện (Dependencies)
-Bạn cần cài đặt thư viện cho cả phần Web và Server. Mở terminal tại thư mục gốc và chạy:
+### 1. Cài đặt thư viện & Cấu hình môi trường
+Mở terminal tại thư mục gốc và chạy các lệnh sau:
+
+**Cho Server:**
 ```bash
-# Cài đặt cho Server
 cd server
 npm install
+cp .env.example .env  # Hoặc copy tay file .env.example thành .env
+```
 
-# Cài đặt cho Web
+**Cho Web:**
+```bash
 cd ../web
 npm install
+cp .env.example .env  # Hoặc copy tay file .env.example thành .env
 ```
 
 ### 2. Thiết lập Database (MySQL)

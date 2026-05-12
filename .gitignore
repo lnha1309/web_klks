@@ -31,3 +31,4 @@ server/logs/
 
 .vercel
 test-db.js
+vercel.json

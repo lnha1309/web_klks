@@ -8,7 +8,7 @@
     { "source": "/(.*)", "destination": "/" }
   ],
   "functions": {
-    "api/**/*.js": {
+    "api/**/*.mjs": {
       "maxDuration": 30
     }
   }

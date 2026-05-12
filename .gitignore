@@ -1,4 +1,6 @@
 # Dependencies
+api
+node_modules
 web/node_modules/
 server/node_modules/
 
@@ -26,3 +28,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 server/logs/
+
+.vercel
+test-db.js

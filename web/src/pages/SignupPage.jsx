@@ -54,8 +54,8 @@ const SignupPage = () => {
         <meta name="description" content="Tạo tài khoản mới" />
       </Helmet>
       
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-        <Card className="w-full max-w-md">
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
+        <Card className="w-full max-w-md shadow-md">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center">Đăng ký</CardTitle>
             <CardDescription className="text-center">

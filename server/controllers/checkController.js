@@ -6,7 +6,8 @@ exports.predictAndSave = async (req, res) => {
   try {
     // 1. Gửi request sang AI Flask API
     const aiResponse = await axios.post(process.env.FLASK_API_URL, { text }, {
-      headers: { 'Content-Type': 'application/json' }
+      headers: { 'Content-Type': 'application/json' },
+      timeout: 55000
     });
 
     console.log("AI Response:", aiResponse.data);
